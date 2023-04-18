@@ -6,11 +6,11 @@ import Detail from "./routes/Detail";
 
 const App = createBrowserRouter([
   {
-    path: `${process.env.PUBLIC_URL}/`,
+    path: `https://huibinkim.github.io/my-react-project/`,
     element: <Home />,
   },
   {
-    path: `${process.env.PUBLIC_URL}/movie/:id`,
+    path: `https://huibinkim.github.io/my-react-project/:id`,
     element: <Detail />,
   },
   {

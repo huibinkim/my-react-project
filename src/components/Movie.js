@@ -10,7 +10,12 @@ function Movie({ coverImg, title, summary, genres, id }) {
           <img src={coverImg} alt={title} />
           <div className="con-txt">
             <h2>
-              <Link to={`/movie/${id}`}> {title}</Link>
+              <Link
+                to={`https://huibinkim.github.io/my-react-project/movie/${id}`}
+              >
+                {" "}
+                {title}
+              </Link>
             </h2>
             <p>{summary}</p>
             <ul>

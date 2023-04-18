@@ -27,7 +27,9 @@ function Detail() {
       ) : (
         <div>
           <Button>
-            <Link to={`/`}>Go home</Link>
+            <Link to={`https://huibinkim.github.io/my-react-project/movie/`}>
+              Go home
+            </Link>
           </Button>
           <div>
             <h1>{details.title}</h1>
