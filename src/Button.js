@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Button() {
   return (
     <button className={styles.btn}>
-      <Link to={`/`}>Go home</Link>
+      <Link to={`https://huibinkim.github.io/my-react-project/`}>Go home</Link>
     </button>
   );
 }

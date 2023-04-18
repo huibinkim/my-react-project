@@ -27,7 +27,9 @@ function Detail() {
       ) : (
         <div>
           <Button>
-            <Link to={`${process.env.PUBLIC_URL}/`}>Go home</Link>
+            <Link to={`https://huibinkim.github.io/my-react-project/`}>
+              Go home
+            </Link>
           </Button>
           <div>
             <h1>{details.title}</h1>
