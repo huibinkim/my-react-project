@@ -1,7 +1,7 @@
-import React from "react";
-import { createBrowserRouter } from "react-router-dom";
-import Home from "./routes/Home";
-import Detail from "./routes/Detail";
+import React from 'react';
+import { createBrowserRouter } from 'react-router-dom';
+import Home from './routes/Home';
+import Detail from './routes/Detail';
 //Route는 기본 url 뒤 /url Url을 의미한다.
 
 const App = createBrowserRouter([
@@ -14,7 +14,7 @@ const App = createBrowserRouter([
     element: <Detail />,
   },
   {
-    path: "/hello",
+    path: '/hello',
     element: <h1>hi</h1>,
   },
 ]);
