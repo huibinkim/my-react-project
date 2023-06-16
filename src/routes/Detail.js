@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 // import styles from "./Detail.module.css";
-import Button from "../Button";
-import { Link } from "react-router-dom";
+import Button from '../Button';
+import { Link } from 'react-router-dom';
 
 function Detail() {
   const { id } = useParams();
@@ -33,7 +33,7 @@ function Detail() {
           </Button>
           <div>
             <h1>{details.title}</h1>
-            <img src={details.background_image_original} />
+            <img src={details.background_image_original} alt="" />
 
             <h2>
               {details.genres} ({details.year}년) : {details.rating}
